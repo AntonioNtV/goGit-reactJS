@@ -59,6 +59,10 @@ const Repositories = styled.div`
     align-items: center;
     transition: transform 0.2s;
 
+    & + a {
+      margin-top: 16px;
+    }
+
     &:hover  {
     transform: translateX(10px)
   }

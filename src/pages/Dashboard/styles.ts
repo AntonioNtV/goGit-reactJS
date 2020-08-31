@@ -57,12 +57,13 @@ const Repositories = styled.div`
     text-decoration: none;
     display: flex;
     align-items: center;
-    transition-delay: 0.2s;
-  }
+    transition: transform 0.2s;
 
-  &:hover  {
+    &:hover  {
     transform: translateX(10px)
   }
+  }
+
 
   img {
     width: 64px;

@@ -100,4 +100,12 @@ const Repositories = styled.div`
 
 `;
 
-export { Title, Form, Repositories };
+const Error = styled.span`
+  display: block;
+  color: #c43030;
+  margin-top: 30px
+`;
+
+export {
+  Title, Form, Repositories, Error,
+};

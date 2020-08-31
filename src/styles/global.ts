@@ -9,6 +9,7 @@ export default createGlobalStyle`
   }
 
   body {
-    background: #F0F0F0
+    background: #F0F0F0;
+    -webkit-font-smoothing: antialiased
   }
 `;

@@ -74,8 +74,8 @@ const Repositories = styled.div`
     }
 
     &:hover  {
-    transform: translateX(10px)
-  }
+      transform: translateX(10px)
+    }
   }
 
 

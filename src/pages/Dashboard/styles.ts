@@ -30,7 +30,7 @@ const Form = styled.form<FormProps>`
     border-right: 0;
 
     ${(props) => props.hasError && css`
-      border-color: #c53030
+      border-color: #c53030;
     `}
 
     &::placeholder {
